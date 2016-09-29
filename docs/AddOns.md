@@ -54,3 +54,33 @@ Will only be wrapped if someone contributes
 - Bass WA
 - Bass DShow
 - Bass XMMS
+
+# Platorm Availability
+AddOn    | Windows | Linux | Mac | Android | iOS | WindowsStore
+---------|---------|-------|-----|---------|-----|--------------
+AAC      | X       | X     |     | X       |     |
+AC3      | X       | X     | X   |         |     |
+ADX      | X       |       |     |         |     |
+AIX      | X       |       |     |         |     |
+ALAC     | X       | X     |     | X       |     |
+APE      | X       | X     | X   | X       | X   |
+ASIO     | X       |       |     |         |     |
+CD       | X       | X     |     |         |     |
+DSD      | X       | X     | X   | X       | X   |
+ENC      | X       | X     | X   | X       | X   |
+ENC_OGG  | X       | X     | X   | X       | X   |
+ENC_OPUS | X       | X     | X   | X       | X   |
+FLAC     | X       | X     | X   | X       | X   |
+FX       | X       | X     | X   | X       | X   | X
+HLS      | X       | X     | X   | X       | X   |
+MIDI     | X       | X     | X   | X       | X   | X
+MIX      | X       | X     | X   | X       | X   | X
+MPC      | X       | X     | X   | X       | X   |
+OFR      | X       |       |     |         |     |
+OPUS     | X       | X     | X   | X       | X   |
+SPX      | X       | X     | X   |         |     |
+TTA      | X       | X     | X   | X       | X   |
+WASAPI   | X       |       |     |         |     |
+WINAMP   | X       |       |     |         |     |
+WMA      | X       |       |     |         |     |
+WV       | X       | X     | X   | X       | X   |
