@@ -2,7 +2,7 @@
 
 # v0.5.0
 * AddOns restricted to platforms on which they are available.
-* BassEnc_Opus and BassEnc_Ogg available on Android and iOS.
+* `BassEnc_Opus` and `BassEnc_Ogg` available on Android and iOS.
 * Portable project restricted to Bass, BassFx, BassMix and BassMidi in favour of WindowsStore.
 
 ## v0.4.5

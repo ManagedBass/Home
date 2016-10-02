@@ -42,7 +42,7 @@ These are automatically resolved by the runtime as:
 - "libbass.so" on Linux and Android
 - "libbass.dylib" on Mac
 
-`DllName = "__Internal"` is used for iOS
+`DllName = "__Internal"` is used for iOS.
 
 ---
 ## Strings as Method Parameters
