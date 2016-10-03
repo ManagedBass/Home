@@ -38,6 +38,7 @@ The following AddOns support the BASS Plugin system.
 - BassTta
 - BassWma
 - BassWv
+- BassZXTune
 
 # BassEnc Plugins
 The following Plugins add more encoding formats to BassEnc.
@@ -46,14 +47,13 @@ The following Plugins add more encoding formats to BassEnc.
 
 # Currently not wrapped
 Will only be wrapped if someone contributes
-- Bass Tags
-- Bass ZXTune
-- Bass WADSP
-- Bass VST
-- Bass SFX
-- Bass WA
-- Bass DShow
-- Bass XMMS
+- BassTags
+- BassWADSP
+- BassVST
+- BassSFX
+- BassWA
+- BassDShow
+- BassXMMS
 
 # Platorm Availability
 AddOn    | Windows | Linux | Mac | Android | iOS | WindowsStore
@@ -84,3 +84,4 @@ WASAPI   | X       |       |     |         |     |
 WINAMP   | X       |       |     |         |     |
 WMA      | X       |       |     |         |     |
 WV       | X       | X     | X   | X       | X   |
+ZXTune   | X       | X     | X   | X       |     |
