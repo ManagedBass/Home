@@ -10,6 +10,7 @@ The following AddOns (excluding Plugins) are supported:
 - BassFx
 - BassMidi
 - BassMix
+- BassWaDsp
 - BassWasapi
 - BassWinamp
 - BassWma
@@ -48,7 +49,6 @@ The following Plugins add more encoding formats to BassEnc.
 # Currently not wrapped
 Will only be wrapped if someone contributes
 - BassTags
-- BassWADSP
 - BassVST
 - BassSFX
 - BassWA
@@ -80,6 +80,7 @@ OFR      | X       |       |     |         |     |
 OPUS     | X       | X     | X   | X       | X   |
 SPX      | X       | X     | X   |         |     |
 TTA      | X       | X     | X   | X       | X   |
+WADASP   | X       |       |     |         |     |
 WASAPI   | X       |       |     |         |     |
 WINAMP   | X       |       |     |         |     |
 WMA      | X       |       |     |         |     |

@@ -23,6 +23,7 @@ If your issues are related to BASS itself, you could ask for help on [BASS Forum
 
 ## Samples
 Set up a repository and transfer it to ManagedBass organisation.
+Make sure that if you include a LICENSE file, then it must be an MIT License.
 
 ## Join Us
 If you are willing to contribute to ManagedBass in the long term, join the organisation.
