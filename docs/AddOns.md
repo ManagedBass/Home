@@ -14,6 +14,9 @@ The following AddOns (excluding Plugins) are supported:
 - BassWasapi
 - BassWinamp
 - BassWma
+- BassSfx
+- BassVst
+- BassDShow
 
 # Plugins
 A Plugin plugs into standard BASS functions like sample or stream creation to provide support for more audio formats.
@@ -49,10 +52,7 @@ The following Plugins add more encoding formats to BassEnc.
 # Currently not wrapped
 Will only be wrapped if someone contributes
 - BassTags
-- BassVST
-- BassSFX
 - BassWA
-- BassDShow
 - BassXMMS
 
 # Platorm Availability
@@ -67,6 +67,7 @@ APE      | X       | X     | X   | X       | X   |
 ASIO     | X       |       |     |         |     |
 CD       | X       | X     |     |         |     |
 DSD      | X       | X     | X   | X       | X   |
+DSHOW    | X       |       |     |         |     |
 ENC      | X       | X     | X   | X       | X   |
 ENC_OGG  | X       | X     | X   | X       | X   |
 ENC_OPUS | X       | X     | X   | X       | X   |
@@ -78,8 +79,10 @@ MIX      | X       | X     | X   | X       | X   | X
 MPC      | X       | X     | X   | X       | X   |
 OFR      | X       |       |     |         |     |
 OPUS     | X       | X     | X   | X       | X   |
+SFX      | X       |       |     |         |     |
 SPX      | X       | X     | X   |         |     |
 TTA      | X       | X     | X   | X       | X   |
+VST      | X       |       |     |         |     |
 WADASP   | X       |       |     |         |     |
 WASAPI   | X       |       |     |         |     |
 WINAMP   | X       |       |     |         |     |
