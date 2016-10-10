@@ -32,6 +32,7 @@ BassOfr      | X         | X       |       |     |         |     |
 BassOpus     | X         | X       | X     | X   | X       | X   |
 BassSfx      |           | X       |       |     |         |     |
 BassSpx      | X         | X       | X     | X   |         |     |
+BassTags     |           | X       | X     | X   | X       | X   |
 BassTta      | X         | X       | X     | X   | X       | X   |
 BassVst      |           | X       |       |     |         |     |
 BassWA       |           | X       |       |     |         |     |
