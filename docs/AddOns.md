@@ -1,92 +1,43 @@
 # AddOns
 AddOns add more functionality to BASS.
 
-Tracked in [this](https://github.com/ManagedBass/ManagedBass.PInvoke/projects/2) project.
-
-The following AddOns (excluding Plugins) are supported:
-- BassAsio
-- BassCd
-- BassEnc
-- BassFx
-- BassMidi
-- BassMix
-- BassWaDsp
-- BassWasapi
-- BassWinamp
-- BassWma
-- BassSfx
-- BassVst
-- BassDShow
-- BassWA
-
-# Plugins
+# Plugin AddOns
 A Plugin plugs into standard BASS functions like sample or stream creation to provide support for more audio formats.
 BASS has built in support for various audio codecs like MPEG, OGG, WAV, AIFF, etc.
 A Plugin is loaded using `Bass.PluginLoad` method and unloaded using `Bass.PluginFree`.
 
-The following AddOns support the BASS Plugin system.
-- BassAac
-- BassAc3
-- BassAdx
-- BassAix
-- BassAlac
-- BassApe
-- BassCd
-- BassDsd
-- BassFlac
-- BassHls
-- BassMidi
-- BassMpc
-- BassOfr
-- BassOpus
-- BassSpx
-- BassTta
-- BassWma
-- BassWv
-- BassZXTune
-
-# BassEnc Plugins
-The following Plugins add more encoding formats to BassEnc.
-- BassEnc_Ogg
-- BassEnc_Opus
-
-# Currently not wrapped
-Will only be wrapped if someone contributes
-- BassTags
-- BassXMMS
-
 # Platorm Availability
-AddOn    | Windows | Linux | Mac | Android | iOS | WindowsStore
----------|---------|-------|-----|---------|-----|--------------
-AAC      | X       | X     |     | X       |     |
-AC3      | X       | X     | X   |         |     |
-ADX      | X       |       |     |         |     |
-AIX      | X       |       |     |         |     |
-ALAC     | X       | X     |     | X       |     |
-APE      | X       | X     | X   | X       | X   |
-ASIO     | X       |       |     |         |     |
-CD       | X       | X     |     |         |     |
-DSD      | X       | X     | X   | X       | X   |
-DSHOW    | X       |       |     |         |     |
-ENC      | X       | X     | X   | X       | X   |
-ENC_OGG  | X       | X     | X   | X       | X   |
-ENC_OPUS | X       | X     | X   | X       | X   |
-FLAC     | X       | X     | X   | X       | X   |
-FX       | X       | X     | X   | X       | X   | X
-HLS      | X       | X     | X   | X       | X   |
-MIDI     | X       | X     | X   | X       | X   | X
-MIX      | X       | X     | X   | X       | X   | X
-MPC      | X       | X     | X   | X       | X   |
-OFR      | X       |       |     |         |     |
-OPUS     | X       | X     | X   | X       | X   |
-SFX      | X       |       |     |         |     |
-SPX      | X       | X     | X   |         |     |
-TTA      | X       | X     | X   | X       | X   |
-VST      | X       |       |     |         |     |
-WA       | X       |       |     |         |     |
-WADSP    | X       |       |     |         |     |
-WASAPI   | X       |       |     |         |     |
-WINAMP   | X       |       |     |         |     |
-WMA      | X       |       |     |         |     |
-WV       | X       | X     | X   | X       | X   |
-ZXTune   | X       | X     | X   | X       |     |
+AddOn        | Is Plugin | Windows | Linux | Mac | Android | iOS | WindowsStore
+-------------|-----------|---------|-------|-----|---------|-----|--------------
+BassAac      | X         | X       | X     |     | X       |     |
+BassAc3      | X         | X       | X     | X   |         |     |
+BassAdx      | X         | X       |       |     |         |     |
+BassAix      | X         | X       |       |     |         |     |
+BassAlac     | X         | X       | X     |     | X       |     |
+BassApe      | X         | X       | X     | X   | X       | X   |
+BassAsio     |           | X       |       |     |         |     |
+BassCd       | X         | X       | X     |     |         |     |
+BassDds      | X         | X       | X     | X   | X       | X   |
+BassDShow    |           | X       |       |     |         |     |
+BassEnc      |           | X       | X     | X   | X       | X   |
+BassEnc_Ogg  |           | X       | X     | X   | X       | X   |
+BassEnc_Opus |           | X       | X     | X   | X       | X   |
+BassFlac     | X         | X       | X     | X   | X       | X   |
+BassFx       |           | X       | X     | X   | X       | X   | X
+BassHls      | X         | X       | X     | X   | X       | X   |
+BassMidi     | X         | X       | X     | X   | X       | X   | X
+BassMix      |           | X       | X     | X   | X       | X   | X
+BassMpc      | X         | X       | X     | X   | X       | X   |
+BassOfr      | X         | X       |       |     |         |     |
+BassOpus     | X         | X       | X     | X   | X       | X   |
+BassSfx      |           | X       |       |     |         |     |
+BassSpx      | X         | X       | X     | X   |         |     |
+BassTta      | X         | X       | X     | X   | X       | X   |
+BassVst      |           | X       |       |     |         |     |
+BassWA       |           | X       |       |     |         |     |
+BassWaDsp    |           | X       |       |     |         |     |
+BassWasapi   |           | X       |       |     |         |     |
+BassWinamp   |           | X       |       |     |         |     |
+BassWma      | X         | X       |       |     |         |     |
+BassWv       | X         | X       | X     | X   | X       | X   |
+BassZXTune   | X         | X       | X     | X   | X       |     |
