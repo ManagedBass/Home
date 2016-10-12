@@ -7,38 +7,38 @@ BASS has built in support for various audio codecs like MPEG, OGG, WAV, AIFF, et
 A Plugin is loaded using `Bass.PluginLoad` method and unloaded using `Bass.PluginFree`.
 
 # Platorm Availability
-AddOn        | Is Plugin | Windows | Linux | Mac | Android | iOS | WindowsStore
--------------|-----------|---------|-------|-----|---------|-----|--------------
-BassAac      | X         | X       | X     |     | X       |     |
-BassAc3      | X         | X       | X     | X   |         |     |
-BassAdx      | X         | X       |       |     |         |     |
-BassAix      | X         | X       |       |     |         |     |
-BassAlac     | X         | X       | X     |     | X       |     |
-BassApe      | X         | X       | X     | X   | X       | X   |
-BassAsio     |           | X       |       |     |         |     |
-BassCd       | X         | X       | X     |     |         |     |
-BassDds      | X         | X       | X     | X   | X       | X   |
-BassDShow    |           | X       |       |     |         |     |
-BassEnc      |           | X       | X     | X   | X       | X   |
-BassEnc_Ogg  |           | X       | X     | X   | X       | X   |
-BassEnc_Opus |           | X       | X     | X   | X       | X   |
-BassFlac     | X         | X       | X     | X   | X       | X   |
-BassFx       |           | X       | X     | X   | X       | X   | X
-BassHls      | X         | X       | X     | X   | X       | X   |
-BassMidi     | X         | X       | X     | X   | X       | X   | X
-BassMix      |           | X       | X     | X   | X       | X   | X
-BassMpc      | X         | X       | X     | X   | X       | X   |
-BassOfr      | X         | X       |       |     |         |     |
-BassOpus     | X         | X       | X     | X   | X       | X   |
-BassSfx      |           | X       |       |     |         |     |
-BassSpx      | X         | X       | X     | X   |         |     |
-BassTags     |           | X       | X     | X   | X       | X   |
-BassTta      | X         | X       | X     | X   | X       | X   |
-BassVst      |           | X       |       |     |         |     |
-BassWA       |           | X       |       |     |         |     |
-BassWaDsp    |           | X       |       |     |         |     |
-BassWasapi   |           | X       |       |     |         |     |
-BassWinamp   |           | X       |       |     |         |     |
-BassWma      | X         | X       |       |     |         |     |
-BassWv       | X         | X       | X     | X   | X       | X   |
-BassZXTune   | X         | X       | X     | X   | X       |     |
+AddOn        | Is Plugin          | Windows            | Linux              | Mac                | Android            | iOS                | WindowsStore
+-------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|------------------
+BassAac      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
+BassAc3      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
+BassAdx      | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+BassAix      | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+BassAlac     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
+BassApe      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassAsio     |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassCd       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |
+BassDds      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassDShow    |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassEnc      |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassEnc_Ogg  |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassEnc_Opus |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassFlac     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassFx       |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+BassHls      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassMidi     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+BassMix      |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+BassMpc      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassOfr      | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+BassOpus     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassSfx      |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassSpx      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
+BassTags     |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassTta      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassVst      |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassWA       |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassWaDsp    |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassWasapi   |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassWinamp   |                    | :heavy_check_mark: |                    |                    |                    |                    |
+BassWma      | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |                    |
+BassWv       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassZXTune   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |

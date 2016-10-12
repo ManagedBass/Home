@@ -66,8 +66,7 @@ Declared as an `IntPtr` and one of `Marshal.PtrToStringAnsi`, `Marshal.PtrToStri
 
 ---
 ## Plugins
-The source code for Plugins and Bass.CreateStream methods are generated from same template using T4 Text Template and data stored in XML file.
-The Plugins project is used just for this purpose and does not build any exe/dll.
+Plugins have their own Shared projects which are referenced by the platforms where they are supported.
 
 ---
 ## Structures
