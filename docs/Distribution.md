@@ -4,14 +4,12 @@ Also, being open-source you can build it yourself (requires Visual Studio 2015 w
 The Linux part needs to be built manually in any case since there is no NuGet support for Linux as of June 2016.
 
 The following platforms are supported:
-- Windows (.Net 4.5)
-- Linux (Mono)
-- Mac (Mono/Xamarin.Mac)
+- Windows (.Net)
+- Linux (Mono/.Net Core)
+- Mac (Mono/Xamarin.Mac/.Net Core)
 - Android (Xamarin.Android)
 - iOS (Xamarin.iOS)
 - UWP (.Net Core)
-
-Cross-Platform support is tracked [here](https://github.com/ManagedBass/ManagedBass.PInvoke/projects/1)
 
 The iOS part has been fixed to work fine from v0.2.1.
 

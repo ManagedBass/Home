@@ -1,5 +1,16 @@
 # Changelog for ManagedBass.PInvoke
 
+# v0.6.1
+Fix pinning error in Bass.FXG/SetParameters.
+
+# v0.6.0
+Added AddOns: BassZXTune, BassWaDsp, BassSfx, BassVst, BassDShow, BassTags
+
+Fix Sync Memory Leaks:
+* Freeing OneTime syncs when they are fired.
+* Freeing SyncProcedureEx from BassMix.ChannelRemoveSync.
+* Freeing OneTime syncs in BassMix.
+
 # v0.5.0
 * AddOns restricted to platforms on which they are available.
 * `BassEnc_Opus` and `BassEnc_Ogg` available on Android and iOS.
