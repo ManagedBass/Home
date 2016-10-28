@@ -11,8 +11,9 @@ Improving the API documentation website hosted at https://github.com/ManagedBass
 These are some changes intended to be made to the NuGet package.
 These are quite time consuming tasks and may not complete soon.
 
-- Split NuGet package according to AddOns.
-- Automate downloading of native libraries and installation in NuGet package.
+- Move from PCL to .Net Standard.
+- ~~Split NuGet package according to AddOns~~.
+- Automate downloading of native libraries and installation in new NuGet packages created per addon.
   See https://github.com/ManagedBass/ManagedBass.NuGet for examples.
 - Find way to DllMap on Xamarin.iOS so as to use a common PCL.
 
