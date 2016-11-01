@@ -10,3 +10,7 @@ ManagedBass is targeted for **Any CPU**, but bass Libraries(.dll/.so/.dylib/.a) 
 Download the versions you need.
 
 See the [Sample Repositories](docs/Samples.md) for examples.
+
+## Support Us
+ManagedBass is a free alternative to the paid Bass.Net library and is made and maintained in personal time.
+If you feel generous, you could donate to the [Gratipay team](https://gratipay.com/ManagedBass) or [Mathew Sachin on PayPal](https://www.paypal.me/MathewSachin) to show your support.

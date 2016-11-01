@@ -43,4 +43,4 @@ Testing the libraries would also be a huge help.
 
 ## Gratipay
 ManagedBass is a free alternative to the paid Bass.Net library and is made and maintained in personal time.
-If you feel generous, you could donate to the [Gratipay team](https://gratipay.com/ManagedBass) to show your support.
+If you feel generous, you could donate to the [Gratipay team](https://gratipay.com/ManagedBass) or [Mathew Sachin on PayPal](https://www.paypal.me/MathewSachin) to show your support.
