@@ -7,8 +7,9 @@ You can always [Chat on Gitter](https://gitter.im/MathewSachin/ManagedBass).
 If your issues are related to BASS itself, you could ask for help on [BASS Forums](https://un4seen.com/forum).
 
 ## Reporting Bugs - Issues
+* Check if a similar issue is already reported. If so then comment on that issue with details specific to your case.
 * Check if the issue is resolved in the latest NuGet release or in this repository.
-* Report the **OS** and **.Net/Mono** version on which you are running ManagedBass.
+* Report the **OS** and **.Net/Mono/Xamarin** version on which you are running ManagedBass.
 * Also, Report your IDE.
 * Include details of included bass Libraries(dll/so/dylib) and whether they are **32-bit**, **64-bit**, **ARM**, etc.
 * If possible, Include **steps** to replicate the problem or a sample project.
@@ -39,3 +40,7 @@ The Website containing API Documentation is generated from [ManagedBass.DocFX](h
 
 ## Test
 Testing the libraries would also be a huge help.
+
+## Gratipay
+ManagedBass is a free alternative to the paid Bass.Net library and is made and maintained in personal time.
+If you feel generous, you could donate to the [Gratipay team](https://gratipay.com/ManagedBass) to show your support.
