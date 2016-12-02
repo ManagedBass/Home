@@ -1,5 +1,6 @@
 # Getting Started - Windows Store
 
+### The Setup 
 1. Install the NuGet package
 
    ```powershell
@@ -18,7 +19,7 @@
 ```xml
 <ItemGroup Condition="'$(Platform)' == 'x86'">
     <Content Include="Assets\libs\x86\bass.dll">
-        <Link>bass.dll</Link>
+        <Link>bass.dll</Link> <!--VERY IMPORTANT-->
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
 </ItemGroup>
@@ -35,5 +36,4 @@
     </Content>
 </ItemGroup>
 ```
-
 5. Repeat the steps 3 and 4 for any addons you require.
