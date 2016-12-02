@@ -19,16 +19,10 @@ An AppVeyor script is used to update the website: [ManagedBass.GitHub.io][MB.Sit
    - Changes are commited and pushed to [ManagedBass.GitHub.io][MB.Page].
 3. Site gets published on GitHub pages.
 
-The process roughly takes 5mins.
-
-## DocFX Template
-The default template seemed inadequate, so it was customized as neccessary.
-
 ## JS Frameworks
 - jQuery
 - Bootstrap
 - Highlight.js
-- Lunr.js
 
 [MB]: https://github.com/ManagedBass/ManagedBass
 [MB.PInvoke]: https://github.com/ManagedBass/ManagedBass.PInvoke

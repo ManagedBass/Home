@@ -1,3 +1,5 @@
+Use the latest version of C# with ReSharper.
+
 # Formatting
 - Indentation: 4 space, no tabs.
 - Keep types in their own files named accordingly.

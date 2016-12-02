@@ -15,12 +15,23 @@ If your issues are related to BASS itself, you could ask for help on [BASS Forum
 * If possible, Include **steps** to replicate the problem or a sample project.
 
 ## Code - Pull Requests
-* **Very Important**: Let me know before-hand if you intend to make a big change since Time and Effort are very valuable and unmergability could be a big pain.
+1. Fork a repository you want to contribute to.
+2. Create a new branch.
+3. Push your changes.
+4. Create Pull Request.
+
 * Make sure to follow the **Code-Style** followed throughout ManagedBass.
-    * Make use of C# 6.0 features.
-    * Make use of ReSharper.
+* Make use of latest C# features and ReSharper.
 * Thoroughly **test** your work.
 * If you intend to bring a major change, you would have to be around helping to resolve issues which arise with other users of your work.
+
+### Very Important
+If you intend to make a big change, create a Pull Request early and include `(WIP)` in its title.
+- So that everyone knows what you are working so that there are no redundancies.
+- To know before-hand if what you intend to do goes well with the Roadmap of the project.
+
+> You could still send a Pull Request even if you are uncomfortable with the guidelines.
+We would help you to make your code comply with our guidelines.
 
 ## Samples
 Set up a repository and transfer it to ManagedBass organisation.

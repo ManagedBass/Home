@@ -17,7 +17,7 @@ BassAlac     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   
 BassApe      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 BassAsio     |                    | :heavy_check_mark: |                    |                    |                    |                    |
 BassCd       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |                    |
-BassDds      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+BassDsd      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 BassDShow    |                    | :heavy_check_mark: |                    |                    |                    |                    |
 BassEnc      |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 BassEnc_Ogg  |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
