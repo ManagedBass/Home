@@ -1,5 +1,6 @@
 # Getting Started - Windows Store
 
+### The Setup 
 1. Install the NuGet package
 
    ```powershell
