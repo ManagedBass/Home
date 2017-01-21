@@ -18,18 +18,9 @@ If you feel generous, you could donate to the [Gratipay team](https://gratipay.c
 ## ToDo
 
 ### Split per AddOn (v1.0)
-The Next version of ManagedBass is under development at https://github.com/ManagedBass/ManagedBass.vNext  
 The idea is to split the library into multiple NuGet packages depending on the AddOns required.
 
 Much of the development is complete. Here are the finalising works to be done:
-- Check validity of platform specifiers in NuSpec
-  - `net45` for Desktops (Windows/Linux/Mac) - *Checked for Windows*
-  - `Xamarin.iOS` for iOS (*Checked*)
-  - `portable-MonoAndroid+wpa81` for Android and Windows Store - *Checked for Android* 
-- Move ManagedBass code to `Legacy` repository
-- Merge into ManagedBass repository
-- Abandon ManagedBass.PInvoke repository
-- Upload packages
 - Update Website
 - Update Samples
 - If something like `DllMap` may work, then separate library for iOS can be eliminated in most cases
