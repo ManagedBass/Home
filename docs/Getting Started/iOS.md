@@ -24,5 +24,20 @@
   - Add **CoreMIDI** framework when using BassMidi.
   - The Additional mtouch arguments should also include `-lstdc++` when using BassFx or BassApe.
 
+6. If you supply callback functions, make it `static` and apply `MonoPInvokeCallback` on them.
+
+```csharp
+using ObjCRuntime;
+
+Bass.ChannelSetDSP(Channel, Proc);
+
+// static method required by Xamarin.iOS
+[MonoPInvokeCallback(typeof(DSPProcedure))]
+static void Proc(int Handle, int Channel, IntPtr Buffer, int Length, IntPtr User)
+{
+    // Do Processing
+}
+```
+
 > [Here](https://github.com/ManagedBass/Xamarin.iOS.Player) is a very simple example of an iOS audio player app using ManagedBass.
   Thanks to Brian Pieslak.
