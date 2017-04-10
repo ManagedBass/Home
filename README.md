@@ -17,21 +17,11 @@ If you feel generous, you could donate to the [Gratipay team](https://gratipay.c
 
 ## ToDo
 
-### Split per AddOn (v1.0)
-The idea is to split the library into multiple NuGet packages depending on the AddOns required.
-
-Much of the development is complete. Here are the finalising works to be done:
-- Update Website
-- Update Samples
-- If something like `DllMap` may work, then separate library for iOS can be eliminated in most cases
-
 ### Website
 - Add more valid parameters documentation. e.g. Supported Flags
 - Add more examples ported from BASS documentation
 
 ### App Store Certification
 - Windows Store (*Tested*)  
-  Currently requires all AddOns libraries to be present for certification.
-  Package splitting would improve the experience.
 - Apple Store
 - Google Play Store
