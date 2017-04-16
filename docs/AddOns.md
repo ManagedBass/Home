@@ -6,7 +6,7 @@ A Plugin plugs into standard BASS functions like sample or stream creation to pr
 BASS has built in support for various audio codecs like MPEG, OGG, WAV, AIFF, etc.
 A Plugin is loaded using `Bass.PluginLoad` method and unloaded using `Bass.PluginFree`.
 
-# Platorm Availability
+# Platform Availability
 AddOn        | Is Plugin          | Windows            | Linux              | Mac                | Android            | iOS                | WindowsStore
 -------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|------------------
 BassAac      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
