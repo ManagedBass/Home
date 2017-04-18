@@ -3,7 +3,7 @@
 1. Install the NuGet package
 
    ```powershell
-   Install-Package ManagedBass.PInvoke
+   Install-Package ManagedBass
    ```
 
 2. Download bass libraries for Windows Store from [here](http://www.un4seen.com/forum/?topic=16665.0).
@@ -35,4 +35,4 @@
     </Content>
 </ItemGroup>
 ```
-5. Repeat the steps 3 and 4 for any addons you require.
+5. Repeat the above steps for any addons you require.
