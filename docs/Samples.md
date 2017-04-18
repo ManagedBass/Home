@@ -24,9 +24,5 @@ A Simple Xamarin.Mac Audio Player app contributed by [Brian Pieslak](https://git
 ### [Xamarin.Android](https://github.com/ManagedBass/Demo.Xamarin.Android)
 A Simple Xamarin.Android Sine Wave Player app.
 
-### [UWP](https://github.com/ManagedBass/Demo.UWP)
-A simple Mp3 player UWP app - not much tested.
-
-### [RaspberryPi](https://github.com/ManagedBass/Demo.RaspberryPi)
-
-### [Windows Phone 8](https://github.com/ManagedBass/Demo.WindowsPhone8)
+### UWP
+[BreadPlayer](https://github.com/theweavrs/BreadPlayer) by [theweavrs](https://github.com/theweavrs) is an awesome Music Player for UWP.
