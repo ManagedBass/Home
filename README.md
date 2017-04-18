@@ -1,5 +1,6 @@
 # ManagedBass | Home
-[![Chat on Gitter](https://img.shields.io/gitter/room/MathewSachin/ManagedBass.svg?style=flat-square)](https://gitter.im/MathewSachin/ManagedBass)  
+[![Chat on Gitter](https://img.shields.io/gitter/room/MathewSachin/ManagedBass.svg?style=flat-square)](https://gitter.im/MathewSachin/ManagedBass)
+[![Build Status](https://img.shields.io/appveyor/ci/MathewSachin/ManagedBass/master.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/ManagedBass)  
 Welcome to the Home Repository for ManagedBass.  
 [(c) 2016 Mathew Sachin](LICENSE.md). All Rights Reserved.
 
