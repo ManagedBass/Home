@@ -4,7 +4,7 @@
 1. Install the NuGet package
 
    ```powershell
-   Install-Package ManagedBass.PInvoke
+   Install-Package ManagedBass
    ```
 
 2. Download bass libraries for iOS from [here](http://www.un4seen.com/forum/?topic=10910.0) and place in project directory.
