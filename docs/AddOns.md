@@ -1,6 +1,8 @@
 # AddOns
 AddOns add more functionality to BASS.
 
+AddOns may need to be loaded into memory before using with BASS. This happens automatically if you call any method on the AddOn class. But, in cases where you use the features of an AddOn directly through BASS, you may need to load it explicitly. This can be done in the best way by calling the `Version` member which is least resource intensive, or you can call any method like `CreateStream` with invalid parameters.
+
 # Plugin AddOns
 A Plugin plugs into standard BASS functions like sample or stream creation to provide support for more audio formats.
 BASS has built in support for various audio codecs like MPEG, OGG, WAV, AIFF, etc.
