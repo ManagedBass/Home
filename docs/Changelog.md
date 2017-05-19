@@ -1,4 +1,5 @@
 # Changelog
+See the Release Notes in NuGet packages for precise information regarding changes in API.
 
 ## v2.0 (expected)
 - Moved from PCL to .Net Standard 1.4.
