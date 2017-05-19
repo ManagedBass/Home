@@ -1,4 +1,4 @@
-# Migrating from Bass.Net
+﻿# Migrating from Bass.Net
 
 This post is targeted for those migrating from Bass.Net to ManagedBass.
 
@@ -31,13 +31,11 @@ Distribution
 ManagedBass is distributed on NuGet.
 Alternatively, since its Open-Source you could build it yourself.
 
-The NuGet package contains a Portable Class Library version and employs the [Bait and Switch](http://log.paulbetts.org/the-bait-and-switch-pcl-trick/) trick.
-
-Linux version is excluded from the NuGet package as support for that was not found.
+There are separate NuGet packages for every AddOn based on .Net Standard 1.4.
 
 Configurations
 ---------------------------------------------------------------------------------
-Bass.Net uses *Bass.Get/SetConfig* methods while ManagedBass provides static **Properties** on respective classes.
+Bass.Net uses *Bass.Get/SetConfig* methods while ManagedBass also provides static **Properties** on respective classes.
 
 Delegates
 ---------------------------------------------------------------------------------
@@ -52,7 +50,3 @@ Effects
 Effects are implemented as classes with full functionality encapsulated. You can use them without touching the BASS functions.
 
 Alternatively, if you want to do that manually the effect functions are available in the Bass class and the marshalling classes are named as *EFFECTNAME*Parameters.
-
-Managed Types
----------------------------------------------------------------------------------
-.Net classes are provided for MediaPlayer, Loopback, Recording, Devices and more...

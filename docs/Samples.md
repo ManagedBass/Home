@@ -25,4 +25,4 @@ A Simple Xamarin.Mac Audio Player app contributed by [Brian Pieslak](https://git
 A Simple Xamarin.Android Sine Wave Player app.
 
 ### UWP
-[BreadPlayer](https://github.com/theweavrs/BreadPlayer) by [theweavrs](https://github.com/theweavrs) is an awesome Music Player for UWP.
+[BreadPlayer](https://github.com/theweavrs/BreadPlayer) by [theweavrs](https://github.com/theweavrs) is an awesome Music Player for UWP made using ManagedBass.

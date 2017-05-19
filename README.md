@@ -6,6 +6,8 @@ Welcome to the Home Repository for ManagedBass.
 
 ManagedBass is a Free Open-Source Cross-Platform .Net wrapper for the un4seen BASS audio library.
 
+> Now based on .Net Standard 1.4
+
 Bass and its Add-Ons can be downloaded at http://un4seen.com/  
 ManagedBass is targeted for **Any CPU**, but bass Libraries(.dll/.so/.dylib/.a) are separate for x86, x64, ARM, etc.  
 Download the versions you need.
